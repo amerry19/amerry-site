@@ -105,13 +105,24 @@ a:active {
     font-weight: 700;
 }
 
+
 .post-content p,
 .post-content li {
     font-family: "Inter", sans-serif;
     font-size: 16px;
-    line-height: 1.8;
+    line-height: 1.8;   
+    margin-bottom: 30px;
+    list-style: disc inside;
+}
+
+.tight-list li{
+    margin-bottom: 0;
+}
+
+.tight-list li:last-of-type {
     margin-bottom: 30px;
 }
+
 .post-content p:first-of-type {
     font-family: "Roboto Mono", monospace;
     font-size: 18px;
