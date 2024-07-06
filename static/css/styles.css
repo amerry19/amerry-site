@@ -123,12 +123,6 @@ a:active {
     margin-bottom: 30px;
 }
 
-.post-content p:first-of-type {
-    font-family: "Roboto Mono", monospace;
-    font-size: 18px;
-    line-height: 1.6;
-}
-
 .site-seperator {
     box-sizing: border-box;
     margin-top: 30px;
